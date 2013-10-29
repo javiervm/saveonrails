@@ -1,4 +1,8 @@
 Saveonrails::Application.routes.draw do
+  get "balance/index"
+  get "balance/ingreso"
+  get "balance/egreso"
+  get "balance/ahorro"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
